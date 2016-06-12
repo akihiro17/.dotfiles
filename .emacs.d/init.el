@@ -46,3 +46,11 @@
 (el-get-bundle ruby-electric)
 (el-get-bundle inf-ruby)
 (el-get-bundle robe)
+
+(setq el-get-sources
+      '(
+        (:name magite
+               :info nil
+               :build (("touch" "lisp/magit-autoloads.el"))
+               :build/berkeley-unix nil)
+        ))

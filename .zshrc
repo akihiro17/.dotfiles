@@ -39,3 +39,6 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+case ${OSTYPE} in
+  darwin*) alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs'
+esac

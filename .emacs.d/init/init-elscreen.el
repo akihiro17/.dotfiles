@@ -1,3 +1,4 @@
+(require 'elscreen)
 ;;; プレフィクスキーはC-t
 (setq elscreen-prefix-key (kbd "C-t"))
 (elscreen-start)
