@@ -7,6 +7,8 @@
 ;;backup fileを作らない
 (setq make-backup-files nil)
 
+(setq x-select-enable-clipboard t)
+
 ;; el-get
 (add-to-list 'load-path (locate-user-emacs-file "el-get/el-get"))
 (unless (require 'el-get nil 'noerror)
