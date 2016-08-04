@@ -1,2 +1,3 @@
 (require 'ruby-electric)
-(add-hook 'ruby-mode-hook '(lambda () (ruby-electric-mode t)))
+(with-eval-after-load 'ruby-mode
+  (add-hook 'ruby-mode-hook '(lambda () (ruby-electric-mode t))))
