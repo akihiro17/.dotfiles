@@ -1,0 +1,14 @@
+'.editor':
+  'ctrl-m': 'editor:newline'
+  'ctrl-h': 'core:backspace'
+  'ctrl-d': 'core:delete'
+'body':
+  'ctrl-t n': 'pane:show-next-item'
+  'ctrl-t p': 'pane:show-previous-item'
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-j': 'unset!'
+'atom-text-editor':
+  'ctrl-e': 'seq:end'
+  'ctrl-a': 'seq:home'
+'.platform-darwin':
+  'cmd-g g': 'go-to-line:toggle'
