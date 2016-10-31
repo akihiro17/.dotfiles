@@ -9,6 +9,8 @@
 
 (setq x-select-enable-clipboard t)
 
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
 ;; el-get
 (add-to-list 'load-path (locate-user-emacs-file "el-get/el-get"))
 (unless (require 'el-get nil 'noerror)
@@ -34,6 +36,7 @@
 
 ;; prog modes
 (el-get-bundle coffee-mode)
+(el-get-bundle js2-mode)
 (el-get-bundle json-mode)
 (el-get-bundle less-css-mode)
 (el-get-bundle ruby-mode)
