@@ -1,0 +1,14 @@
+"*":
+  "disable-keybindings":
+    exceptCommunityPackages: [
+      "emacs-plus"
+    ]
+    prefixKeys: [
+      "ctrk-k"
+    ]
+  editor:
+    fontSize: 13
+  "exception-reporting":
+    userId: "3899795c-d363-36b4-bb76-c5981dc4d5ee"
+  welcome:
+    showOnStartup: false
