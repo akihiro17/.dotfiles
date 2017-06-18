@@ -30,7 +30,6 @@
 (el-get-bundle ddskk)
 (el-get-bundle sticky)
 (el-get-bundle sequential-command)
-(el-get-bundle sequential-command-config)
 (el-get-bundle elscreen)
 (el-get-bundle magit)
 
