@@ -1,0 +1,6 @@
+(require 'dumb-jump)
+(setq dumb-jump-mode t)
+(setq dumb-jump-selector 'ivy)
+(setq dumb-jump-use-visible-window nil)
+(global-set-key (kbd "C-0") 'dumb-jump-go)
+(global-set-key (kbd "C-9") 'dumb-jump-back)
